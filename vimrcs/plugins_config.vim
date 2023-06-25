@@ -186,3 +186,8 @@ let g:EditorConfig_exclude_patterns = ['fugitive://.*']
 " Copy the link to the line of a Git repository to the clipboard
 nnoremap <leader>v :.GBrowse!<CR>
 xnoremap <leader>v :GBrowse!<CR>
+
+" added by azhi 2023年6月25日
+let NERDTreeWinPos = "left"
+nmap <F6> :NERDTreeToggle<cr>
+
