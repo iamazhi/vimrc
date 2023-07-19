@@ -190,4 +190,7 @@ xnoremap <leader>v :GBrowse!<CR>
 " added by azhi 2023年6月25日
 let NERDTreeWinPos = "left"
 nmap <F6> :NERDTreeToggle<cr>
+"set foldmethod=manual
+set foldlevelstart=99
+set nu
 
